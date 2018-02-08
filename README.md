@@ -107,6 +107,14 @@ Installation successful
 
 ```
 nohup ./bin/logstash -f mysql-connection/jdbc.conf >/dev/null 2>&1 &
+
+```
+
+* 主要配置文件
+
+```
+/data/soft/logstash-5.2.1/mysql-connection
+
 ```
 
 * 删除索引
